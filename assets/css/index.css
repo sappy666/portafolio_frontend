@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+*{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  background-color: rgb(255, 255, 255);
+}
+/* ------ HERO ------ */
+.hero{
+  background: rgb(255, 255, 255);
+  position: relative;
+  height: 45rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.hero img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0.7;
+}
+
+.hero-text{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(67, 67, 67);
+  letter-spacing: .2rem;
+  font-weight: 600;
+}
+.hero-text h1{
+  font-size: 2.5rem;
+  letter-spacing: .3rem;
+  font-weight: 700;
+}
+.hero-text a{
+  color: #ddd;
+  /* height: 2rem; */
+  /* padding: 1rem; */
+}
+
+.hero input[type="text"]{
+  width: 17rem;
+  height: 2rem;
+  margin-top: 1rem;
+  background-color: #222;
+  border-bottom: solid 3px hsl(120, 40%, 50%);
+  /* border-bottom: solid 2px hsl(120, 75%, 30%); */
+}
+.hero input[type="button"]{
+  height: 2rem;
+  background: transparent;
+  color: #ccc;
+}
+.hero input:placeholder{
+  color: red;
+}
+/*------ CARTAS DE TEMAS ------*/
+.container{
+  /* margin: 1rem;
+  display: grid;
+  /* flex-direction: row; */
+  /* grid-template-columns: auto auto auto auto auto; */
+  /* gap: 1rem; */555555555555555579595578977777777777777777
+}
+.card{
+  /* width: 15rem; */
+  height: 4rem;
+  border-radius: 5rem;
+  text-align:  center;
+}
+.card a{
+  text-decoration: none;
+  color: #222;
+  font-weight: 700;
+  letter-spacing: .2rem;
+  /* width: 100%; */
+  /* height: inherit; */
+}
+.green{
+  background-color: hsl(120, 40%, 50%);  
+}
+.red{
+  background-color: hsl(1, 40%, 50%);  
+}
+.light-blue{
+  background-color: hsl(180, 40%, 50%);  
+}
+.yellow{
+  background-color: hsl(60, 40%, 50%);  
+}
+/* ------ FOOTER ------ */
+footer{
+  padding: 5rem;
+  font-size: .8rem;
+  font-weight: 400;
+  color: #ddd;
+  background-color: #222;
+  text-align: center;
+  letter-spacing:  .2rem;
+}
+footer h2{
+  font-size: 2rem;
+  letter-spacing: .3rem;
+}
